@@ -1,0 +1,86 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2021/09/12/10/22/hearts-6617942_960_720.jpg);
+}
+#header {
+background-color: pink;
+width: 100%;
+height:80px;
+margin: 0px;
+padding: 0px;
+}
+
+.menu {
+    float: center;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.menu ul li a {
+    color: black;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: darkred;
+}
+
+.box {
+    width: 100%;
+    float: left;
+}
+
+.box1 {
+    width:13%;
+    margin-top: 20px;
+    padding: 0px;
+    float: left;
+    background-image: url(https://cdn.pixabay.com/photo/2020/07/27/17/19/bear-5442970_960_720.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:200px;
+}
+.box2 {
+    width: 87%;
+    margin-top: 20px;
+    padding: 0px;;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wierszyk {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 200px;
+    background-color: rgb(238, 130, 238);
+    text-align: center;
+    font-weight: bold;
+}
+
+#komunikat {
+    background-color: white;
+    color: red;
+    font-size: 2rem;
+    font-weight: bolder;
+    height: 40px;
+    margin: 0px;  
+}
+#border {
+   border: 5px, solid, red; 
+}
+
+.happy {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
